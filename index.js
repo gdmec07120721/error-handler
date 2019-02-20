@@ -1,7 +1,7 @@
 var axios = require('axios');
 var qs = require('qs');
-var WinErrorHandler = require('./winErrorHandler.js');
-var VueErrorHandler = require('./vueErrorHandler.js');
+var WinErrorHandler = require('./lib/winErrorHandler.js');
+var VueErrorHandler = require('./lib/vueErrorHandler.js');
 var SENDERRTIMELINE = null;
 
 function sendLog(options) {
